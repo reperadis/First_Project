@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    background-color: beige;
+    color: violet;
+}
+.Widget{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+    animation: revert 5s;
+    text-align: center;
+}
+h1:hover{
+    animation: colour-change 5s infinite;
+}
+
+@keyframes colour-change {
+    0% {
+        color: blue;
+        margin-left: 0;
+    }
+    25% {
+        color: black;
+        margin-left: 50px;
+    }
+    50% {
+        color: aqua;
+        margin-left: 0px;
+    }
+    75% {
+        color: red;
+        margin-left: -50px;
+    }
+    100% {
+        color: blue;
+        margin-left: 0px;
+    }
+}
